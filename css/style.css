@@ -1,0 +1,73 @@
+body {
+	background-color: rgba(80, 44, 90, 1); /*#502c5a*/
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 5%;
+	padding-top: 15%;
+}
+
+h1 {
+	color: rgba(255,255,255,1);
+	font-size: 100px;
+	margin-bottom:20px;
+	font-weight: bold;
+}
+
+.tags {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tags a {
+	text-decoration: none;
+}
+
+.tags li {
+	background-color: rgba(255,255,255,0.3);
+	color: rgba(255,255,255,1);
+	border-radius: 10px;
+	padding: 7px;
+	display: inline;
+	cursor: pointer;
+}
+
+.tags li img {
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+}
+
+.tags li:hover {
+	background-color: rgba(227, 112, 26, 1); /*#E3701A*/
+}
+
+
+/* CONTACT STYLES */
+
+#email {
+	background-color: rgba(229, 74, 79, 1); /*#e54a4f*/
+}
+
+#phone {
+	background-color: rgba(255, 204, 0, 1); /*#ffcc00*/
+}
+
+/*#blog {
+	background-color: rgba(134, 179, 45, 1);
+}*/
+
+#twitter {
+	background-color: rgba(0, 172, 238, 1); /*#00acee*/
+}
+
+#linkedin {
+	background-color: rgba(14, 118, 168, 1); /*#0e76a8*/
+}
+
+#github {
+	background-color: rgba(23, 21, 21, 1); /*#171515*/
+}
+
+.contact-element:hover {
+	opacity: 0.95;
+}

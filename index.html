@@ -1,0 +1,150 @@
+<!-- 
+
+            dddddddd                                                                                                  
+            d::::::d                                                                                          lllllll 
+            d::::::d                                                                                          l:::::l 
+            d::::::d                                                                                          l:::::l 
+            d:::::d                                                                                           l:::::l 
+    ddddddddd:::::d   aaaaaaaaaaaaa  nnnn  nnnnnnnn yyyyyyy           yyyyyyyaaaaaaaaaaaaa    aaaaaaaaaaaaa    l::::l 
+  dd::::::::::::::d   a::::::::::::a n:::nn::::::::nny:::::y         y:::::y a::::::::::::a   a::::::::::::a   l::::l 
+ d::::::::::::::::d   aaaaaaaaa:::::an::::::::::::::nny:::::y       y:::::y  aaaaaaaaa:::::a  aaaaaaaaa:::::a  l::::l 
+d:::::::ddddd:::::d            a::::ann:::::::::::::::ny:::::y     y:::::y            a::::a           a::::a  l::::l 
+d::::::d    d:::::d     aaaaaaa:::::a  n:::::nnnn:::::n y:::::y   y:::::y      aaaaaaa:::::a    aaaaaaa:::::a  l::::l 
+d:::::d     d:::::d   aa::::::::::::a  n::::n    n::::n  y:::::y y:::::y     aa::::::::::::a  aa::::::::::::a  l::::l 
+d:::::d     d:::::d  a::::aaaa::::::a  n::::n    n::::n   y:::::y:::::y     a::::aaaa::::::a a::::aaaa::::::a  l::::l 
+d:::::d     d:::::d a::::a    a:::::a  n::::n    n::::n    y:::::::::y     a::::a    a:::::aa::::a    a:::::a  l::::l 
+d::::::ddddd::::::dda::::a    a:::::a  n::::n    n::::n     y:::::::y      a::::a    a:::::aa::::a    a:::::a l::::::l
+ d:::::::::::::::::da:::::aaaa::::::a  n::::n    n::::n      y:::::y       a:::::aaaa::::::aa:::::aaaa::::::a l::::::l
+  d:::::::::ddd::::d a::::::::::aa:::a n::::n    n::::n     y:::::y         a::::::::::aa:::aa::::::::::aa:::al::::::l
+   ddddddddd   ddddd  aaaaaaaaaa  aaaa nnnnnn    nnnnnn    y:::::y           aaaaaaaaaa  aaaa aaaaaaaaaa  aaaallllllll
+                                                          y:::::y                                                     
+                                                         y:::::y                                                      
+                                                        y:::::y                                                       
+                                                       y:::::y                                                        
+                                                      yyyyyyy                                                         
+                                                                                                                      
+                                                                                                                      
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>danyaal rangwala</title>
+		<link href="css/reset.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+
+		<!-- Shortcut Icon -->
+        <link rel="shortcut icon" type="text/css" href="img/danyaal.png" />
+        <meta name="description" content="danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala." />
+
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> 
+		<![endif]-->
+
+		<!-- Facebook Properties -->
+        <meta property="og:image" content="img/danyaal.png"/>
+        <meta property="og:title" content="Danyaal Rangwala"/>
+        <meta property="og:url" content="http://www.thedanyaal.com"/>
+        <meta property="og:site_name" content="Danyaal Rangwala"/>
+        <meta name="og:description" content="danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. danyaal rangwala. " />
+        <meta property="og:type" content="website"/>
+
+        <script src="js/jquery.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				// ENTER SITE
+				$('body').hide();
+				$('#back').hide();
+				$('body').fadeIn(2000);
+				// DESIGNER
+				$('.designer-element').hide();
+				$('#designer').click(function() {
+					$('.main').fadeOut(0);
+					$('#back').fadeIn(500);
+					$('.designer-element').fadeIn(500);
+				});
+				// DEVELOPER
+				$('.developer-element').hide();
+				$('#developer').click(function() {
+					$('.main').fadeOut(0);
+					$('#back').fadeIn(500);
+					$('.developer-element').fadeIn(500);
+				});
+				// CONTACT
+				$('.contact-element').hide();
+				$('#contact').click(function() {
+					$('.main').fadeOut(0);
+					$('#back').fadeIn(500);
+					$('.contact-element').fadeIn(500);
+				});
+				// BACK
+				$('#back').click(function() {
+					$('#back').fadeOut(0);
+					$('.main').fadeIn(500);
+					$('.contact-element').fadeOut(0);
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+
+		<h1 id="name">danyaal rangwala</h1>
+
+		<ul class="tags">
+			<!-- BACK -->
+				<li id="back"><img src="img/circle.png"/>back</li>
+
+			<!-- STUDENT -->
+			<a href="http://cs.lsa.umich.edu/" class="main" target="_blank">
+				<li><img src="img/circle.png"/>student</li>
+			</a>
+
+			<!-- DESIGNER -->
+				<li class="main" id="designer"><img src="img/circle.png"/>designer</li>
+
+			<!-- DEVELOPER -->
+				<li class="main" id="developer"><img src="img/circle.png"/>developer</li>
+
+			<!-- BLOGGER -->
+			<a href="http://www.thedanyaal.com/blog" class="main" target="_blank">
+				<li><img src="img/circle.png"/>blogger</li>
+			</a>
+
+			<!-- CONTACT -->
+				<li class="main" id="contact"><img src="img/circle.png"/>contact</li>
+				
+			<!-- CONTACT ELEMENTS -->
+			<a href="mailto:danyaal@rangwa.la?subject=Hi Danyaal!" class="contact-element">
+				<li id="email"><img src="img/circle.png"/>email</li>
+			</a>
+			<a href="http://pastie.org/pastes/8139752/text?key=htsu0rjmurhypabod5lq" class="contact-element" target="_blank">
+				<li id="phone"><img src="img/circle.png"/>phone</li>
+			</a>
+			<a href="https://twitter.com/thedanyaal" class="contact-element" target="_blank">
+				<li id="twitter"><img src="img/circle.png"/>twitter</li>
+			</a>
+			<a href="http://www.linkedin.com/in/danyaal" class="contact-element" target="_blank">
+				<li id="linkedin"><img src="img/circle.png"/>linkedin</li>
+			</a>
+			<a href="https://github.com/thedanyaal" class="contact-element" target="_blank">
+				<li id="github"><img src="img/circle.png"/>github</li>
+			</a>
+		</ul>
+
+	</body>
+</html>
+
+<!-- For fun: -->
+<!-- /1kproblems -->
+<!-- /Arduino_Life -->
+<!-- /blog -->
+<!-- cyaal.com -->
+<!-- /frankenvegetable -->
+<!-- /history -->
+<!-- /hurry -->
+<!-- /test -->
+<!-- /valentine -->
+<!-- /yawn -->
+<!-- /asdf
