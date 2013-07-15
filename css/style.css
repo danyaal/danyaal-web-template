@@ -41,6 +41,50 @@ h1 {
 	background-color: rgba(227, 112, 26, 1); /*#E3701A*/
 }
 
+/* DESIGNER STYLES */
+
+#vulse {
+	background-color: #ea4c89;
+}
+
+#hipsterculture {
+	background-color: #000;
+}
+
+#fbandyourmind {
+	background-color: #3b5998;
+}
+
+#centricycle {
+	background-color: #af8401;
+}
+
+#onekp {
+	background-color: #999;
+}
+
+.designer-element:hover {
+	opacity: 0.95;
+}
+
+/* DEVELOPER STYLES */
+
+#massdrop {
+	background-color: #00afd8;
+}
+
+#umspeaks {
+	background-color: #ffcc00;
+}
+
+#groupbeats {
+	background-color: #aaaaaa;
+}
+
+.developer-element:hover {
+	opacity: 0.95;
+}
+
 
 /* CONTACT STYLES */
 
@@ -51,10 +95,6 @@ h1 {
 #phone {
 	background-color: rgba(255, 204, 0, 1); /*#ffcc00*/
 }
-
-/*#blog {
-	background-color: rgba(134, 179, 45, 1);
-}*/
 
 #twitter {
 	background-color: rgba(0, 172, 238, 1); /*#00acee*/
