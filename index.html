@@ -71,20 +71,29 @@ d::::::ddddd::::::dda::::a    a:::::a  n::::n    n::::n     y:::::::y      a::::
 					$('#back').fadeIn(500);
 					$('.developer-element').fadeIn(500);
 				});
+				// LEADER
+				$('.leader-element').hide();
+				$('#leader').click(function() {
+					$('.main').fadeOut(0);
+					$('#back').fadeIn(500);
+					$('.leader-element').fadeIn(500);
+				});
 				// CONTACT
 				$('.contact-element').hide();
 				$('#contact').click(function() {
 					$('.main').fadeOut(0);
 					$('#back').fadeIn(500);
 					$('.contact-element').fadeIn(500);
+					// $('.contact-element').fadeToggle(500);
 				});
 				// BACK
 				$('#back').click(function() {
 					$('#back').fadeOut(0);
 					$('.main').fadeIn(500);
-					$('.contact-element').fadeOut(0);
-					$('.developer-element').fadeOut(0);
 					$('.designer-element').fadeOut(0);
+					$('.developer-element').fadeOut(0);
+					$('.leader-element').fadeOut(0);
+					$('.contact-element').fadeOut(0);
 				});
 			});
 		</script>
@@ -116,15 +125,15 @@ d::::::ddddd::::::dda::::a    a:::::a  n::::n    n::::n     y:::::::y      a::::
 			<li class="main" id="designer"><img src="img/circle.png"/>designer</li>
 
 			<!-- DESIGNER ELEMENTS -->
-			<a href="https://www.massdrop.com/" class="designer-element" target="_blank">
+			<!-- <a href="https://www.massdrop.com/" class="designer-element" target="_blank">
 				<li id="massdrop"><img src="img/circle.png"/>massdrop</li>
-			</a>
-			<a href="https://csg.umich.edu/umspeaks/" class="designer-element" target="_blank">
+			</a> -->
+			<!-- <a href="https://csg.umich.edu/umspeaks/" class="designer-element" target="_blank">
 				<li id="umspeaks"><img src="img/circle.png"/>um speaks</li>
-			</a>
-			<a href="http://vulseapp.com/" class="designer-element" target="_blank">
+			</a> -->
+			<!-- <a href="http://vulseapp.com/" class="designer-element" target="_blank">
 				<li id="vulse"><img src="img/circle.png"/>vulse</li>
-			</a>
+			</a> -->
 			<a href="img/hipsterculture.png" class="designer-element fancybox" target="_blank">
 				<li id="hipsterculture"><img src="img/circle.png"/>hipster culture</li>
 			</a>
@@ -134,9 +143,9 @@ d::::::ddddd::::::dda::::a    a:::::a  n::::n    n::::n     y:::::::y      a::::
 			<a href="img/centricycle.png" class="designer-element fancybox" target="_blank">
 				<li id="centricycle"><img src="img/circle.png"/>centricycle</li>
 			</a>
-			<a href="https://1000pitches.com/" class="designer-element" target="_blank">
+			<!-- <a href="https://1000pitches.com/" class="designer-element" target="_blank">
 				<li id="onekp"><img src="img/circle.png"/>1000 pitches</li>
-			</a>
+			</a> -->
 
 			<!-- DEVELOPER -->
 			<li class="main" id="developer"><img src="img/circle.png"/>developer</li>
@@ -150,6 +159,14 @@ d::::::ddddd::::::dda::::a    a:::::a  n::::n    n::::n     y:::::::y      a::::
 			</a>
 			<a href="https://github.com/thedanyaal/GroupBeats" class="developer-element" target="_blank">
 				<li id="groupbeats"><img src="img/circle.png"/>groupbeats</li>
+			</a>
+
+			<!-- LEADER -->
+			<li class="main" id="leader"><img src="img/circle.png"/>leader</li>
+
+			<!-- LEADER ELEMENTS -->
+			<a href="https://1000pitches.com/" class="leader-element" target="_blank">
+				<li id="onekp"><img src="img/circle.png"/>1000 pitches</li>
 			</a>
 
 			<!-- BLOGGER -->
