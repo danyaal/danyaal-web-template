@@ -48,4 +48,9 @@ $(document).ready(function() {
 		$('.leader-element').fadeOut(0);
 		$('.contact-element').fadeOut(0);
 	});
+	
+	// FANCYBOX
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
 });
