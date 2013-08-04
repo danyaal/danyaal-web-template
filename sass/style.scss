@@ -38,12 +38,14 @@ h1 {
 }
 
 .portfolio-element {
+	margin: 20px 0 0 0;
+	list-style-type: none;
 	li {
+		float: left;
 		display: inline-block;
 		width: 400px;
 		height: 150px;
-		margin: 20px 20px 0 0;
-		list-style: none;
+		margin: 0;
 		color: #fff;
 		font-weight: lighter;
 		img	{
