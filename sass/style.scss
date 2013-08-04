@@ -5,7 +5,7 @@ body {
 	padding-top: 15%;
 }
 
-h1 {
+#name {
 	color: rgba(255,255,255,1);
 	font-size: 100px;
 	margin-bottom:20px;
@@ -37,7 +37,16 @@ h1 {
 	}
 }
 
-.portfolio-element {
+// ABOUT STYLES
+
+#about-element {
+	margin: 20px 0 0 0;
+	color: #fff;
+}
+
+// PORTFOLIO STYLES
+
+#portfolio-element {
 	margin: 20px 0 0 0;
 	list-style-type: none;
 	li {
@@ -49,6 +58,8 @@ h1 {
 		color: #fff;
 		font-weight: lighter;
 		img	{
+			width: 400px;
+			height: 150px;
 			filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
         	filter: gray; /* IE6-9 */
         	-webkit-filter: grayscale(0.65); /* Google Chrome & Safari 6+ */
@@ -56,8 +67,6 @@ h1 {
         	-webkit-transition: 0.25s ease-in-out;
         	-moz-transition: 0.25s ease-in-out;
         	-o-transition: 0.25s ease-in-out;
-			width: 400px;
-			height: 150px;
 			&:hover {
 				filter: none;
         		-webkit-filter: grayscale(0);
