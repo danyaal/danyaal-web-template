@@ -41,7 +41,18 @@ body {
 
 #about-element {
 	margin: 20px 0 0 0;
-	color: #fff;
+	color: rgba(255,255,255,1);
+	a {
+		color: rgba(255, 204, 0, 1); /*#ffcc00*/
+		&:hover {
+			color: rgba(227, 112, 26, 1); /*#E3701A*/
+		}
+	}
+	#goblue {
+		&:hover {
+			color: #0d57aa;
+		}
+	}
 }
 
 // PORTFOLIO STYLES
@@ -55,7 +66,7 @@ body {
 		width: 400px;
 		height: 150px;
 		margin: 0;
-		color: #fff;
+		color: rgba(255,255,255,1);
 		font-weight: lighter;
 		img	{
 			width: 400px;
