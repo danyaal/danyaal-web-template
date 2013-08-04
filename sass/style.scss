@@ -37,52 +37,31 @@ h1 {
 	}
 }
 
-/* DESIGNER STYLES */
-
-#vulse {
-	background-color: #ea4c89;
+.portfolio-element {
+	li {
+		display: inline-block;
+		width: 400px;
+		height: 150px;
+		margin: 20px 20px 0 0;
+		background-color: #fff;
+		list-style: none;
+		img	{
+			filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+        	filter: gray; /* IE6-9 */
+        	-webkit-filter: grayscale(0.5); /* Google Chrome & Safari 6+ */
+        	transition: 0.3s ease-in-out;
+        	-webkit-transition: 0.3s ease-in-out;
+        	-moz-transition: 0.3s ease-in-out;
+        	-o-transition: 0.3s ease-in-out;
+			width: 400px;
+			height: 150px;
+			&:hover {
+				filter: none;
+        		-webkit-filter: grayscale(0);
+			}
+		}
+	}
 }
-
-#hipsterculture {
-	background-color: #000;
-}
-
-#fbandyourmind {
-	background-color: #3b5998;
-}
-
-#centricycle {
-	background-color: #9a4029;
-}
-
-#onekp {
-	background-color: #999;
-}
-
-.designer-element:hover {
-	opacity: 0.95;
-}
-
-/* DEVELOPER STYLES */
-
-#massdrop {
-	background-color: #00afd8;
-}
-
-#umspeaks {
-	background-color: #ffcc00;
-}
-
-#groupbeats {
-	background-color: #aaaaaa;
-}
-
-.developer-element:hover {
-	opacity: 0.95;
-}
-
-/* LEADER STYLES */
-
 
 /* CONTACT STYLES */
 
