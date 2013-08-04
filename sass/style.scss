@@ -47,7 +47,7 @@ h1 {
 		img	{
 			filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
         	filter: gray; /* IE6-9 */
-        	-webkit-filter: grayscale(0.5); /* Google Chrome & Safari 6+ */
+        	-webkit-filter: grayscale(0.65); /* Google Chrome & Safari 6+ */
         	transition: 0.3s ease-in-out;
         	-webkit-transition: 0.3s ease-in-out;
         	-moz-transition: 0.3s ease-in-out;
