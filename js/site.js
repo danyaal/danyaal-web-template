@@ -40,9 +40,4 @@ $(document).ready(function() {
 	$(document).ready(function() {
 		$(".fancybox").fancybox();
 	});
-
-	// STICKY
-	// $(window).load(function () {
-	// 	$("#back").sticky({ topSpacing:0 });
-	// });
 });
