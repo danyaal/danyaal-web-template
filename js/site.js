@@ -16,11 +16,11 @@ $(document).ready(function() {
 		$('#back').fadeIn(500);
 		$('#about-element').fadeIn(500);
 	});
-	// PORTFOLIO
-	$('#portfolio').click(function() {
+	// PROJECT
+	$('#project').click(function() {
 		$('.main').fadeOut(0);
 		$('#back').fadeIn(500);
-		$('#portfolio-element').fadeIn(500);
+		$('#project-element').fadeIn(500);
 	});
 	// CONTACT
 	$('#contact').click(function() {

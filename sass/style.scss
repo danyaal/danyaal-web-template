@@ -62,35 +62,25 @@ body {
 	}
 }
 
-// PORTFOLIO STYLES
+// PROJECT STYLES
 
-#portfolio-element {
+#project-element {
 	margin: 20px 0 0 0;
-	list-style-type: none;
-	li {
-		float: left;
-		display: block;
-		width: 360px;
-		height: 135px;
-		margin: 0;
-		color: rgba(255,255,255,1);
-		font-weight: lighter;
-		img	{
-			width: 360px;
-			height: 135px;
-			filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
-        	filter: gray; /* IE6-9 */
-        	-webkit-filter: grayscale(0.65); /* Google Chrome & Safari 6+ */
-        	transition: 0.25s ease-in-out;
-        	-webkit-transition: 0.25s ease-in-out;
-        	-moz-transition: 0.25s ease-in-out;
-        	-o-transition: 0.25s ease-in-out;
-			&:hover {
-				filter: none;
-        		-webkit-filter: grayscale(0);
-			}
+	color: rgba(255,255,255,1);
+	line-height: 1.15em;
+	a {
+		color: rgba(255, 204, 0, 1); /*#ffcc00*/
+		&:hover {
+			color: rgba(227, 112, 26, 1); /*#E3701A*/
 		}
 	}
+	ul {
+		list-style-type: disc;
+		li {
+			margin-left: 20px;
+		}
+	}
+	
 }
 
 /* CONTACT STYLES */
