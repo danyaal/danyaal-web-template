@@ -1,0 +1,111 @@
+body {
+	background: /*rgba(80, 44, 90, 1)*/  url('../img/beach.jpg') no-repeat left top; /*#502c5a*/
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 5%;
+	padding-top: 15%;
+}
+
+#name {
+	color: rgba(255,255,255,1);
+	font-size: 100px;
+	margin-bottom:20px;
+	font-weight: bold;
+}
+
+.tags {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	a {
+		text-decoration: none;
+	}
+	li {
+		background-color: rgba(255,255,255,0.3);
+		color: rgba(255,255,255,1);
+		border-radius: 10px;
+		padding: 7px;
+		display: inline;
+		cursor: pointer;
+		img {
+			width: 10px;
+			height: 10px;
+			margin-right: 5px;
+		}
+		&:hover {
+			background-color: rgba(227, 112, 26, 1); /*#E3701A*/
+		}
+	}
+}
+
+// ABOUT STYLES
+
+#about-element {
+	margin: 20px 0 0 0;
+	color: rgba(255,255,255,1);
+	line-height: 1.15em;
+	max-width: 960px;
+	a {
+		color: rgba(255, 204, 0, 1); /*#ffcc00*/
+		&:hover {
+			color: rgba(227, 112, 26, 1); /*#E3701A*/
+		}
+	}
+	#goblue {
+		&:hover {
+			color: #0d57aa;
+		}
+	}
+	ul {
+		list-style-type: disc;
+		li {
+			margin-left: 20px;
+		}
+	}
+}
+
+// PROJECT STYLES
+
+#project-element {
+	margin: 20px 0 0 0;
+	color: rgba(255,255,255,1);
+	line-height: 1.15em;
+	a {
+		color: rgba(255, 204, 0, 1); /*#ffcc00*/
+		&:hover {
+			color: rgba(227, 112, 26, 1); /*#E3701A*/
+		}
+	}
+	ul {
+		list-style-type: disc;
+		li {
+			margin-left: 20px;
+		}
+	}
+	
+}
+
+/* CONTACT STYLES */
+
+#email {
+	background-color: rgba(229, 74, 79, 1); /*#e54a4f*/
+}
+
+#phone {
+	background-color: rgba(255, 204, 0, 1); /*#ffcc00*/
+}
+
+#twitter {
+	background-color: rgba(0, 172, 238, 1); /*#00acee*/
+}
+
+#linkedin {
+	background-color: rgba(14, 118, 168, 1); /*#0e76a8*/
+}
+
+#github {
+	background-color: rgba(23, 21, 21, 1); /*#171515*/
+}
+
+.contact-element:hover {
+	opacity: 0.95;
+}
